@@ -1,0 +1,28 @@
+/* Red line debugging */
+
+* {
+    outline: 1px solid red;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+button {
+    background-color: green;
+    color: white;
+}
+div.container {
+    display: flex;
+    flex-wrap: wrap;
+    
+    border-width: 1px;
+    border-color: black;
+    width: 960px;
+    height: 960px;
+}
+
